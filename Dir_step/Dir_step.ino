@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   Step_x.setCurrentPosition(0);
   int homeX = 0;
-  while (Step_x.currentPosition() != -300)
+  while (Step_x.currentPosition() != -400)
   {
     
     Step_x.moveTo(homeX);
